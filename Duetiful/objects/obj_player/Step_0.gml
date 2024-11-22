@@ -33,7 +33,7 @@ if (focus == true){
 
 // when the current documnet is complete
 if(current_docprg <= 0){
-	obj_game_controller.docs--
+	obj_daycounter.docs--
 	current_docprg = 100;
 	focus = false;
 	sprite_index = spr_player;

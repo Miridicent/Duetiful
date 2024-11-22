@@ -4,7 +4,7 @@ event_inherited();
 
 if (obj_daycounter.day == 0){
 	//obj_daycounter.day = 1;
-	room_goto(Office);
+	room_goto(Convo_inbetween);
 }
 
 else if (obj_daycounter.day == 1){
