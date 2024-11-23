@@ -24,3 +24,7 @@ else if(obj_daycounter.day == 4){
 else if(obj_daycounter.day == 5){
 	text = "Ugh, overtime sucks. But with all the intruders I'm having to work extra, let's just get this over with and clock out."
 }
+
+else if(obj_daycounter.day == 6){
+	text = "Finally! all done! ...I need a nap."
+}

@@ -37,3 +37,9 @@ else if (obj_daycounter.day == 5){
 	obj_daycounter.docs = 20
 	room_goto(Office_3)
 }
+
+else if (obj_daycounter.day == 6){
+	//obj_daycounter.day = 6;
+	//obj_daycounter.docs = 20
+	room_goto(End);
+}

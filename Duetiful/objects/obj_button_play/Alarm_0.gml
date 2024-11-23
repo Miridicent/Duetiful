@@ -2,7 +2,10 @@
 // You can write your code in this editor
 event_inherited();
 
-room_goto(Convo_inbetween)
+audio_stop_sound(centaur_forest_60695);
+audio_play_sound(merx_market_song_33936, 0 , 1);
+
+room_goto(Convo_inbetween);
 
 //if (obj_daycounter.day == 0){
 	//obj_daycounter.day = 1;
