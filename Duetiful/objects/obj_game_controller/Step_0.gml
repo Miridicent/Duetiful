@@ -13,10 +13,12 @@ if (room == Office){
 		Visit = true;
 		var _spawn = random(5);
 		if (_spawn >= 4){
+			audio_play_sound(door_close_79921, 0, 0);
 			instance_create_layer(sx, sy, "Visitors", obj_secretary);
 		
 		}
 		else if(_spawn < 4){
+			audio_play_sound(door_close_79921, 0, 0);
 			instance_create_layer(sx, sy, "Visitors",obj_hero_basic);
 		}
 		Visittime = 100;
@@ -33,13 +35,19 @@ else if (room == Office_2){
 	}
 	if(Visittime <= 0){
 		Visit = true;
-		var _spawn = random(5);
-		if (_spawn >= 4){
+		var _spawn = random(10);
+		if (_spawn >= 9){
+			audio_play_sound(door_close_79921, 0, 0);
 			instance_create_layer(sx, sy, "Visitors", obj_secretary);
 		
 		}
-		else if(_spawn < 4){
+		else if(_spawn < 9) && (_spawn >= 5){
+			audio_play_sound(door_close_79921, 0, 0);
 			instance_create_layer(sx, sy, "Visitors", obj_hero_mid);
+		}
+		else if(_spawn < 5){
+			audio_play_sound(door_close_79921, 0, 0);
+			instance_create_layer(sx, sy, "Visitors", obj_2ndGen);
 		}
 		Visittime = 100;
 	}
@@ -55,13 +63,19 @@ else if (room == Office_3){
 	}
 	if(Visittime <= 0){
 		Visit = true;
-		var _spawn = random(5);
-		if (_spawn >= 4){
+		var _spawn = random(10);
+		if (_spawn >= 9){
+			audio_play_sound(door_close_79921, 0, 0);
 			instance_create_layer(sx, sy, "Visitors", obj_secretary);
 		
 		}
-		else if(_spawn < 4){
+		else if(_spawn < 9) && (_spawn >= 5){
+			audio_play_sound(door_close_79921, 0, 0);
 			instance_create_layer(sx, sy, "Visitors", obj_hero_high);
+		}
+		else if(_spawn < 5){
+			audio_play_sound(door_close_79921, 0, 0);
+			instance_create_layer(sx, sy, "Visitors", obj_DemonKing);
 		}
 		Visittime = 100;
 	}

@@ -27,7 +27,7 @@
   ],
   "name":"spr_secretary",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Vistors",
     "path":"folders/Sprites/Vistors.yy",
@@ -92,7 +92,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":44,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

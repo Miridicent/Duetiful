@@ -10,7 +10,7 @@ else if(obj_daycounter.day == 1){
 }
 
 else if(obj_daycounter.day == 2){
-	text = "Due to my efforts the demon king has seen fit to move me to another office closer to the throne room, My workload has increasced and some of the more ambitious adventurers may be sniffing around."
+	text = "Due to my efforts the demon king has seen fit to move me to another office closer to the throne room, My workload has increasced and some of the more ambitious adventurers may be sniffing around. That sneaky 2nd General may also visit, I should use 'alt' to send her away"
 }
 
 else if(obj_daycounter.day == 3){
