@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.742844,
+  "duration":2.7428572,
   "exportDir":"",
   "name":"door_close_79921",
   "parent":{

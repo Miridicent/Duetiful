@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.182844,
+  "duration":0.18285714,
   "exportDir":"",
   "name":"retro_blip_236676",
   "parent":{

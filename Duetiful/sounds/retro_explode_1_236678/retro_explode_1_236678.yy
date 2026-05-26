@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.339594,
+  "duration":0.33959183,
   "exportDir":"",
   "name":"retro_explode_1_236678",
   "parent":{

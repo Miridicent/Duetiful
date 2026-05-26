@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":35.256,
+  "duration":35.25601,
   "exportDir":"",
   "name":"centaur_forest_60695",
   "parent":{

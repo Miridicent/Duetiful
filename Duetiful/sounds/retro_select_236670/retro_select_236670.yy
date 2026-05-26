@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.104469,
+  "duration":0.104489796,
   "exportDir":"",
   "name":"retro_select_236670",
   "parent":{
